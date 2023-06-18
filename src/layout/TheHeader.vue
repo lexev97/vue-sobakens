@@ -1,9 +1,9 @@
 <template>
   <section class="header">
     <div class="header__container">
-      <h1 class="header__container">Собакены</h1>
+      <h1 class="header__heading">Собакены</h1>
+      <slot></slot>
     </div>
-    <slot></slot>
   </section>
 </template>
 
@@ -17,7 +17,17 @@ export default defineComponent({});
 @use "../main.scss" as *;
 
 .header {
-  @include flex($justify: space-between);
   background-color: $dark-blue;
+  font-family: "Wellwait";
+
+  &__container {
+    @include flex($justify: space-between);
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  &__heading {
+    color: $yellow;
+  }
 }
 </style>

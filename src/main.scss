@@ -1,6 +1,17 @@
+@font-face {
+    font-family: "Wellwait";
+    src: url(~@/vendor/fonts/21063.woff2);
+}
+
+body{
+    margin: 0;
+}
+
 $dark-blue: #023047;
 $light-blue: #8ecae6;
 $blue: #219ebc;
+$yellow: #FFB703;
+$orange: #FB8500;
 
 @mixin flex($direction: row, $justify: center, $align: center) {
     display: flex;
