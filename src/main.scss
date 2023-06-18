@@ -1,0 +1,10 @@
+$dark-blue: #023047;
+$light-blue: #8ecae6;
+$blue: #219ebc;
+
+@mixin flex($direction: row, $justify: center, $align: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
