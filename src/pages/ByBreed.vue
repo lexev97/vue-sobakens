@@ -44,7 +44,7 @@ export default defineComponent({
     breeds: { type: Array, required: true },
   },
   data(): {
-    pictureLink: string;
+    pictureLink: any;
     picturesHistory: number[];
   } {
     return {
