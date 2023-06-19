@@ -24,10 +24,10 @@
       />
       <div class="exact-breed__btns">
         <button class="select-breed__btn" @click="showPreviousPictureOfBreed">
-          Назад
+          Back
         </button>
         <button class="select-breed__btn" @click="showAnyPictureOfBreed">
-          Вперед
+          Next
         </button>
       </div>
     </div>
