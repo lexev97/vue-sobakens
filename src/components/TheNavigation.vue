@@ -26,6 +26,8 @@ export default defineComponent({});
     @include flex($justify: space-between);
     gap: 30px;
     list-style: none;
+    padding: 0;
+    margin: 0;
   }
 
   &__link {
